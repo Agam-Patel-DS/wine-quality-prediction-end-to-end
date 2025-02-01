@@ -9,3 +9,8 @@ conda create -p venv python==3.10 -y
 ```
 pip install -r requirements.txt
 ```
+3. Create the Project Structure - template.py
+```
+python template.py
+```
+4. 
