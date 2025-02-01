@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-project_name="Wine Quality Prediction"
+project_name="winequalityprediction"
 list_of_files=[
     ".github/workflows/.gitkeep",
     f"src/{project_name}/__init__.py",
@@ -22,7 +22,7 @@ list_of_files=[
     "params.yaml",
     "main.py",
     "Dockerfile",
-    "setup.py"
+    "setup.py",
     "research/research.ipynb",
     "templates/index.html",
 ]
