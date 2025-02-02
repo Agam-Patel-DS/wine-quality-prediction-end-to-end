@@ -19,9 +19,10 @@ python template.py
 
 ### Workflow
 1. Data Ingestion
-2. Data Transformation
-3. Model Trainer
-4. Model Evaluation
+2. Data Validation
+3. Data Transformation
+4. Model Trainer
+5. Model Evaluation
 
 ## Steps followed in every step of Workflow
 1. Update `config.yaml`
