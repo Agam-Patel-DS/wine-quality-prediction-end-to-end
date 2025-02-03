@@ -3,6 +3,7 @@ from src.winequalityprediction.pipeline.data_ingestion_pipeline import DataInges
 from src.winequalityprediction.pipeline.data_validation_pipeline import DataValidationTrainingPipeline
 from src.winequalityprediction.pipeline.data_transformation_pipeline import DataTransformationTrainingPipeline
 from src.winequalityprediction.pipeline.model_trainer_pipeline import ModelTrainingPipeline
+from src.winequalityprediction.pipeline.model_evaluation_pipeline import Model_EvaluationPipeline
 logger.info("Custom Logging Intialised Successfully!")
 
 STAGE_NAME = "Data Ingestion Stage"
@@ -40,6 +41,16 @@ try:
     logger.info(f"\n>>>>> {STAGE_NAME} Started! <<<<<")
     model_trainer=ModelTrainingPipeline()
     model_trainer.initiate_model_training()
+    logger.info(f"\n>>>>> {STAGE_NAME} Completed! <<<<<")
+except Exception as e:
+    logger.exception(e)
+    raise e
+
+STAGE_NAME = "Model Evaluation Stage"
+try:
+    logger.info(f"\n>>>>> {STAGE_NAME} Started! <<<<<")
+    model_evaluator=Model_EvaluationPipeline()
+    model_evaluator.initiate_model_evaluation()
     logger.info(f"\n>>>>> {STAGE_NAME} Completed! <<<<<")
 except Exception as e:
     logger.exception(e)

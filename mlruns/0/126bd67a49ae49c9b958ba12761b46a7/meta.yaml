@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/wine-quality-prediction-end-to-end/mlruns/0/126bd67a49ae49c9b958ba12761b46a7/artifacts
+end_time: 1738570146350
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 126bd67a49ae49c9b958ba12761b46a7
+run_name: fun-hog-141
+run_uuid: 126bd67a49ae49c9b958ba12761b46a7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738570146339
+status: 4
+tags: []
+user_id: codespace

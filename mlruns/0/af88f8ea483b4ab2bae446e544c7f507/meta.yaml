@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/wine-quality-prediction-end-to-end/mlruns/0/af88f8ea483b4ab2bae446e544c7f507/artifacts
+end_time: 1738570232143
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: af88f8ea483b4ab2bae446e544c7f507
+run_name: capable-grouse-980
+run_uuid: af88f8ea483b4ab2bae446e544c7f507
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738570232132
+status: 4
+tags: []
+user_id: codespace

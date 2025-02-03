@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/wine-quality-prediction-end-to-end/mlruns/0/20e2e33eca4a4fe18a4cfeba2c080db7/artifacts
+end_time: 1738570326157
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 20e2e33eca4a4fe18a4cfeba2c080db7
+run_name: orderly-koi-991
+run_uuid: 20e2e33eca4a4fe18a4cfeba2c080db7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738570323347
+status: 3
+tags: []
+user_id: codespace
