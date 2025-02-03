@@ -5,6 +5,7 @@
 1. Environment Creation: Separate environment for different projects.
 ```
 conda create -p venv python==3.10 -y
+conda activate venv
 ```
 2. Requirements in `requirements.txt`
 ```
@@ -33,3 +34,26 @@ python template.py
 6. Update the components
 7. Update the pipeline
 8. Update the `main.py`
+
+## Running the End To End Project
+1. Clone the repository:
+```
+git clone https://github.com/Agam-Patel-DS/wine-quality-prediction-end-to-end.git
+```
+2. Create Env
+```
+conda create -p venv python==3.10 -y
+conda activate venv
+```
+3. Requirements in `requirements.txt`
+```
+pip install -r requirements.txt
+```
+4.a. Run the flask app (to train while running the app)
+```
+python app.py
+```
+4.b. Run the main.py (to only run training pipeline)
+```
+python main.py
+```
