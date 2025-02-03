@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/wine-quality-prediction-end-to-end/mlruns/0/017028b078354bb3b8599c0ccfa01c31/artifacts
+end_time: 1738572980979
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 017028b078354bb3b8599c0ccfa01c31
+run_name: puzzled-dog-600
+run_uuid: 017028b078354bb3b8599c0ccfa01c31
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738572978171
+status: 3
+tags: []
+user_id: codespace

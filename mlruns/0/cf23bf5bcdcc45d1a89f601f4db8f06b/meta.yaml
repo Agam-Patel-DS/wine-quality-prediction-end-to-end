@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/wine-quality-prediction-end-to-end/mlruns/0/cf23bf5bcdcc45d1a89f601f4db8f06b/artifacts
+end_time: 1738573132331
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cf23bf5bcdcc45d1a89f601f4db8f06b
+run_name: caring-ape-438
+run_uuid: cf23bf5bcdcc45d1a89f601f4db8f06b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738573129520
+status: 3
+tags: []
+user_id: codespace

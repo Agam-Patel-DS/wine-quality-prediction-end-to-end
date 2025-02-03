@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wine Quality Prediction</title>
+    <title>Prediction Result</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 <body class="bg-light">
     <div class="container text-center mt-5">
-        <h1 class="text-primary">Wine Quality Prediction</h1>
-        <p class="lead">Predict wine quality based on its features</p>
-        
-        <a href="/train" class="btn btn-success">Train Model</a>
-        <a href="/predict" class="btn btn-primary">Make Prediction</a>
+        <h1 class="text-primary">Prediction Result</h1>
+        <p class="lead">Predicted Quality: {{ prediction }}</p>
+        <a href="/predict" class="btn btn-warning">Make Another Prediction</a>
+        <a href="/" class="btn btn-primary">Back to Home</a>
     </div>
 </body>
 </html>
